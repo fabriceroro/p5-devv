@@ -20,6 +20,7 @@ productImg.alt = data.altTxt;
 
 let productName = document.createElement('h3');
 productArticle.appendChild(productName);
+productName.classList.add("productName");
 productName.innerHTML = data.name;
 
 
@@ -34,6 +35,7 @@ productDescruption.innerHTML = data.description;
 console.log(data)
     })
 });
+
 }
    
 getArtcicle();
