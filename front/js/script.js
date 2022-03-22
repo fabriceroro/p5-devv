@@ -1,5 +1,5 @@
 
-async function getArtcicle () {
+async function getArticle () {
     fetch('http://localhost:3000/api/products')
 .then(res => res.json()) 
 .then(function (value) {
@@ -38,5 +38,5 @@ console.log(data)
 
 }
    
-getArtcicle();
+getArticle();
     
